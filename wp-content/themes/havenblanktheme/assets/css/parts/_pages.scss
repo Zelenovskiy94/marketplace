@@ -1,0 +1,212 @@
+
+
+.auctions {
+    display: flex;
+    gap: 24px;
+    row-gap: 48px;
+    flex-wrap: wrap;
+    justify-content: center;
+    &__item {
+        width: 392px;
+        position: relative;
+        background-color: $white;
+        border-radius: 12px;
+        color: $black-1000;
+        overflow: hidden;
+        display: flex;
+        flex-direction: column;
+        &__content {
+            padding: 24px;
+            padding-top: 14px;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            flex: 1 0 auto;
+            &__bid {
+                background-color: $black-900;
+                padding: 10px;
+                border-radius: 8px;
+                width: 100%;
+                box-sizing: border-box;
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                .auction-price {
+                    display: flex;
+                    flex-direction: column;
+                    color: $white;
+                    font-weight: 800;
+                    font-size: 18px;
+                    .current  {
+                        font-size: 14px;
+                        font-weight: 400;
+                        color: $yellow;
+                    }
+                }
+            }
+            &__descr {
+                margin-bottom: 16px;
+                p {
+                    color: inherit;
+                }
+            }
+        }
+        .h4 {
+            margin-bottom: 8px;
+        }
+        .auction-time {
+            position: absolute;
+            top: 24px;
+            left: 24px;
+            @media screen and (max-width: $mobile) {
+                left: calc(50% - 256px / 2);
+            }
+            .auction-time-countdown {
+                background: rgba(3, 0, 21, 0.8);
+                backdrop-filter: blur(20px);
+            }
+        }
+    }
+}
+
+.sort {
+    display: flex;
+    align-items: center;
+    width: fit-content;
+    margin-left: auto;
+    position: relative;
+    margin-top: 39px;
+    margin-bottom: 23px;
+    @media screen and (max-width: $mobile) {
+        margin-top: 23px;
+        margin-bottom: 30px;
+    }
+    &__item {
+        padding: 12px 16px 12px 12px;
+        width: 207px;
+        height: 48px;
+        box-sizing: border-box;
+        background-color: $black-900;
+        transition: 0.3s ease;
+        display: block;
+        cursor: pointer;
+        &:hover {
+            background-color: $black-700; 
+        }
+    }
+    &__item__active {
+        color: $yellow !important;
+    }
+    &__current {
+        margin-left: 16px;
+        border-radius: 8px;
+        border: 1px solid $black-800;
+        position: relative;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    &__dropdown {
+        position: absolute;
+        border-radius: 8px;
+        border: 1px solid $black-800;
+        box-sizing: border-box;
+        max-width: 207px;
+        right: 0;
+        top: calc(100% + 8px);
+        z-index: 4;
+        background-color: $black-900;
+        overflow: hidden;
+        display: none;
+        &.open {
+            display: block;
+        }
+    }
+}
+
+
+.auction-time-countdown {
+    width: 256px;
+    height: 71px;
+    padding: 14px 0 !important;
+    padding-left: 15px;
+    display: flex;
+    justify-content: space-between;
+    box-sizing: border-box;
+    border-radius: 8px;
+    .countdown_section {
+        color: $yellow;
+        position: relative;
+        font-size: 11px;
+        line-height: 11px;
+        font-weight: 400;
+        &:not(:last-child):before {
+            content: ":";
+            position: absolute;
+            right: -2px;
+            top: 6px;
+            color: $black-400;
+            font-weight: 800;
+            font-size: 22px;
+        }
+        .countdown_amount {
+            color: $white;
+            font-size: 24px;
+            line-height: 24px;
+            margin-bottom: 7px;
+            display: inline-block;
+
+        }
+    }
+}
+
+
+.favorite__button {
+    width: 40px;
+    height: 40px;
+    .sa-watchlist-action {
+        width: 100%;
+        height: 100%;
+        border-radius: 8px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-color: $black-800;
+        transition: 0.3s ease;
+        &:before {
+            display: none;
+        }
+        &:hover {
+            background: linear-gradient(0deg, rgba(242, 236, 53, 0.2), rgba(242, 236, 53, 0.2));  
+        }
+    }
+    &__active {
+        background: linear-gradient(0deg, rgba(242, 236, 53, 0.2), rgba(242, 236, 53, 0.2));
+        svg path {
+            fill: $yellow
+        }
+    }
+
+}
+
+.wcfmmp_sold_by_wrapper {
+    display: flex !important;
+    align-items: center;
+    margin-bottom: 22px;
+    a {
+        &:first-child {
+            width: 32px;
+            height: 32px;
+            border-radius: 50%;
+            overflow: hidden;
+            margin-right: 8px;
+        }
+        &.wcfm_dashboard_item_title {
+            font-size: 14px;
+            color: $black-1000 !important;
+        }
+        img.wcfmmp_sold_by_logo {
+            width: 100% !important;
+        }
+    }
+}

@@ -1,0 +1,38 @@
+2021-09-08T08:14:57+00:00 CRITICAL Uncaught Error: Call to a member function get_review_count() on null in D:\xampp\htdocs\backlot.site\wp-content\themes\havenblanktheme\includes\any-filters.php:44
+Stack trace:
+#0 D:\xampp\htdocs\backlot.site\wp-includes\class-wp-hook.php(305): custom_woocommerce_get_catalog_ordering_name_args(Array)
+#1 D:\xampp\htdocs\backlot.site\wp-includes\plugin.php(189): WP_Hook->apply_filters(Array, Array)
+#2 D:\xampp\htdocs\backlot.site\wp-content\plugins\woocommerce\includes\class-wc-query.php(622): apply_filters('woocommerce_get...', Array, 'most_comments', '')
+#3 D:\xampp\htdocs\backlot.site\wp-content\plugins\woocommerce\includes\class-wc-query.php(486): WC_Query->get_catalog_ordering_args()
+#4 D:\xampp\htdocs\backlot.site\wp-content\plugins\woocommerce\includes\class-wc-query.php(388): WC_Query->product_query(Object(WP_Query))
+#5 D:\xampp\htdocs\backlot.site\wp-includes\class-wp-hook.php(303): WC_Query->pre_get_posts(Object(WP_Query))
+#6 D:\xampp\htdocs\backlot.site\wp-includes\class-wp-hook.php(327): WP_Hook->app in D:\xampp\htdocs\backlot.site\wp-content\themes\havenblanktheme\includes\any-filters.php on line 44
+
+2021-09-08T08:15:09+00:00 CRITICAL Uncaught Error: Call to a member function get_review_count() on null in D:\xampp\htdocs\backlot.site\wp-content\themes\havenblanktheme\includes\any-filters.php:44
+Stack trace:
+#0 D:\xampp\htdocs\backlot.site\wp-includes\class-wp-hook.php(305): custom_woocommerce_get_catalog_ordering_name_args(Array)
+#1 D:\xampp\htdocs\backlot.site\wp-includes\plugin.php(189): WP_Hook->apply_filters(Array, Array)
+#2 D:\xampp\htdocs\backlot.site\wp-content\plugins\woocommerce\includes\class-wc-query.php(622): apply_filters('woocommerce_get...', Array, 'most_comments', '')
+#3 D:\xampp\htdocs\backlot.site\wp-content\plugins\woocommerce\includes\class-wc-query.php(486): WC_Query->get_catalog_ordering_args()
+#4 D:\xampp\htdocs\backlot.site\wp-content\plugins\woocommerce\includes\class-wc-query.php(388): WC_Query->product_query(Object(WP_Query))
+#5 D:\xampp\htdocs\backlot.site\wp-includes\class-wp-hook.php(303): WC_Query->pre_get_posts(Object(WP_Query))
+#6 D:\xampp\htdocs\backlot.site\wp-includes\class-wp-hook.php(327): WP_Hook->app in D:\xampp\htdocs\backlot.site\wp-content\themes\havenblanktheme\includes\any-filters.php on line 44
+
+2021-09-08T08:15:21+00:00 CRITICAL Uncaught Error: Call to a member function get_review_count() on null in D:\xampp\htdocs\backlot.site\wp-content\themes\havenblanktheme\includes\any-filters.php:44
+Stack trace:
+#0 D:\xampp\htdocs\backlot.site\wp-includes\class-wp-hook.php(305): custom_woocommerce_get_catalog_ordering_name_args(Array)
+#1 D:\xampp\htdocs\backlot.site\wp-includes\plugin.php(189): WP_Hook->apply_filters(Array, Array)
+#2 D:\xampp\htdocs\backlot.site\wp-content\plugins\woocommerce\includes\class-wc-query.php(622): apply_filters('woocommerce_get...', Array, 'most_comments', '')
+#3 D:\xampp\htdocs\backlot.site\wp-content\plugins\woocommerce\includes\class-wc-query.php(486): WC_Query->get_catalog_ordering_args()
+#4 D:\xampp\htdocs\backlot.site\wp-content\plugins\woocommerce\includes\class-wc-query.php(388): WC_Query->product_query(Object(WP_Query))
+#5 D:\xampp\htdocs\backlot.site\wp-includes\class-wp-hook.php(303): WC_Query->pre_get_posts(Object(WP_Query))
+#6 D:\xampp\htdocs\backlot.site\wp-includes\class-wp-hook.php(327): WP_Hook->app in D:\xampp\htdocs\backlot.site\wp-content\themes\havenblanktheme\includes\any-filters.php on line 44
+
+2021-09-08T09:13:19+00:00 CRITICAL syntax error, unexpected end of file in D:\xampp\htdocs\backlot.site\wp-content\themes\havenblanktheme\includes\any-actions.php on line 18
+
+2021-09-08T09:13:19+00:00 CRITICAL syntax error, unexpected end of file in D:\xampp\htdocs\backlot.site\wp-content\themes\havenblanktheme\includes\any-actions.php on line 18
+
+2021-09-08T09:13:20+00:00 CRITICAL syntax error, unexpected end of file in D:\xampp\htdocs\backlot.site\wp-content\themes\havenblanktheme\includes\any-actions.php on line 18
+
+2021-09-08T09:13:21+00:00 CRITICAL syntax error, unexpected end of file in D:\xampp\htdocs\backlot.site\wp-content\themes\havenblanktheme\includes\any-actions.php on line 18
+

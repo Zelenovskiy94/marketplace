@@ -1,0 +1,116 @@
+2021-09-09T08:13:49+00:00 CRITICAL Uncaught Error: Using $this when not in object context in D:\xampp\htdocs\backlot.site\wp-content\themes\havenblanktheme\includes\woocommerce.php:63
+Stack trace:
+#0 D:\xampp\htdocs\backlot.site\wp-content\themes\havenblanktheme\functions.php(116): include_once()
+#1 D:\xampp\htdocs\backlot.site\wp-settings.php(546): include('D:\\xampp\\htdocs...')
+#2 D:\xampp\htdocs\backlot.site\wp-config.php(90): require_once('D:\\xampp\\htdocs...')
+#3 D:\xampp\htdocs\backlot.site\wp-load.php(50): require_once('D:\\xampp\\htdocs...')
+#4 D:\xampp\htdocs\backlot.site\wp-blog-header.php(13): require_once('D:\\xampp\\htdocs...')
+#5 D:\xampp\htdocs\backlot.site\index.php(17): require('D:\\xampp\\htdocs...')
+#6 {main}
+  thrown in D:\xampp\htdocs\backlot.site\wp-content\themes\havenblanktheme\includes\woocommerce.php on line 63
+
+2021-09-09T08:13:50+00:00 CRITICAL Uncaught Error: Using $this when not in object context in D:\xampp\htdocs\backlot.site\wp-content\themes\havenblanktheme\includes\woocommerce.php:63
+Stack trace:
+#0 D:\xampp\htdocs\backlot.site\wp-content\themes\havenblanktheme\functions.php(116): include_once()
+#1 D:\xampp\htdocs\backlot.site\wp-settings.php(546): include('D:\\xampp\\htdocs...')
+#2 D:\xampp\htdocs\backlot.site\wp-config.php(90): require_once('D:\\xampp\\htdocs...')
+#3 D:\xampp\htdocs\backlot.site\wp-load.php(50): require_once('D:\\xampp\\htdocs...')
+#4 D:\xampp\htdocs\backlot.site\wp-blog-header.php(13): require_once('D:\\xampp\\htdocs...')
+#5 D:\xampp\htdocs\backlot.site\index.php(17): require('D:\\xampp\\htdocs...')
+#6 {main}
+  thrown in D:\xampp\htdocs\backlot.site\wp-content\themes\havenblanktheme\includes\woocommerce.php on line 63
+
+2021-09-09T08:13:51+00:00 CRITICAL Uncaught Error: Using $this when not in object context in D:\xampp\htdocs\backlot.site\wp-content\themes\havenblanktheme\includes\woocommerce.php:63
+Stack trace:
+#0 D:\xampp\htdocs\backlot.site\wp-content\themes\havenblanktheme\functions.php(116): include_once()
+#1 D:\xampp\htdocs\backlot.site\wp-settings.php(546): include('D:\\xampp\\htdocs...')
+#2 D:\xampp\htdocs\backlot.site\wp-config.php(90): require_once('D:\\xampp\\htdocs...')
+#3 D:\xampp\htdocs\backlot.site\wp-load.php(50): require_once('D:\\xampp\\htdocs...')
+#4 D:\xampp\htdocs\backlot.site\wp-blog-header.php(13): require_once('D:\\xampp\\htdocs...')
+#5 D:\xampp\htdocs\backlot.site\index.php(17): require('D:\\xampp\\htdocs...')
+#6 {main}
+  thrown in D:\xampp\htdocs\backlot.site\wp-content\themes\havenblanktheme\includes\woocommerce.php on line 63
+
+2021-09-09T11:45:45+00:00 CRITICAL Uncaught Error: Using $this when not in object context in D:\xampp\htdocs\backlot.site\wp-content\themes\havenblanktheme\includes\woocommerce.php:130
+Stack trace:
+#0 D:\xampp\htdocs\backlot.site\wp-content\themes\havenblanktheme\functions.php(116): include_once()
+#1 D:\xampp\htdocs\backlot.site\wp-settings.php(546): include('D:\\xampp\\htdocs...')
+#2 D:\xampp\htdocs\backlot.site\wp-config.php(90): require_once('D:\\xampp\\htdocs...')
+#3 D:\xampp\htdocs\backlot.site\wp-load.php(50): require_once('D:\\xampp\\htdocs...')
+#4 D:\xampp\htdocs\backlot.site\wp-blog-header.php(13): require_once('D:\\xampp\\htdocs...')
+#5 D:\xampp\htdocs\backlot.site\index.php(17): require('D:\\xampp\\htdocs...')
+#6 {main}
+  thrown in D:\xampp\htdocs\backlot.site\wp-content\themes\havenblanktheme\includes\woocommerce.php on line 130
+
+2021-09-09T11:45:46+00:00 CRITICAL Uncaught Error: Using $this when not in object context in D:\xampp\htdocs\backlot.site\wp-content\themes\havenblanktheme\includes\woocommerce.php:130
+Stack trace:
+#0 D:\xampp\htdocs\backlot.site\wp-content\themes\havenblanktheme\functions.php(116): include_once()
+#1 D:\xampp\htdocs\backlot.site\wp-settings.php(546): include('D:\\xampp\\htdocs...')
+#2 D:\xampp\htdocs\backlot.site\wp-config.php(90): require_once('D:\\xampp\\htdocs...')
+#3 D:\xampp\htdocs\backlot.site\wp-load.php(50): require_once('D:\\xampp\\htdocs...')
+#4 D:\xampp\htdocs\backlot.site\wp-blog-header.php(13): require_once('D:\\xampp\\htdocs...')
+#5 D:\xampp\htdocs\backlot.site\index.php(17): require('D:\\xampp\\htdocs...')
+#6 {main}
+  thrown in D:\xampp\htdocs\backlot.site\wp-content\themes\havenblanktheme\includes\woocommerce.php on line 130
+
+2021-09-09T11:45:47+00:00 CRITICAL Uncaught Error: Using $this when not in object context in D:\xampp\htdocs\backlot.site\wp-content\themes\havenblanktheme\includes\woocommerce.php:130
+Stack trace:
+#0 D:\xampp\htdocs\backlot.site\wp-content\themes\havenblanktheme\functions.php(116): include_once()
+#1 D:\xampp\htdocs\backlot.site\wp-settings.php(546): include('D:\\xampp\\htdocs...')
+#2 D:\xampp\htdocs\backlot.site\wp-config.php(90): require_once('D:\\xampp\\htdocs...')
+#3 D:\xampp\htdocs\backlot.site\wp-load.php(50): require_once('D:\\xampp\\htdocs...')
+#4 D:\xampp\htdocs\backlot.site\wp-blog-header.php(13): require_once('D:\\xampp\\htdocs...')
+#5 D:\xampp\htdocs\backlot.site\index.php(17): require('D:\\xampp\\htdocs...')
+#6 {main}
+  thrown in D:\xampp\htdocs\backlot.site\wp-content\themes\havenblanktheme\includes\woocommerce.php on line 130
+
+2021-09-09T11:59:25+00:00 CRITICAL Uncaught Error: Using $this when not in object context in D:\xampp\htdocs\backlot.site\wp-content\themes\havenblanktheme\includes\woocommerce.php:130
+Stack trace:
+#0 D:\xampp\htdocs\backlot.site\wp-content\themes\havenblanktheme\functions.php(116): include_once()
+#1 D:\xampp\htdocs\backlot.site\wp-settings.php(546): include('D:\\xampp\\htdocs...')
+#2 D:\xampp\htdocs\backlot.site\wp-config.php(90): require_once('D:\\xampp\\htdocs...')
+#3 D:\xampp\htdocs\backlot.site\wp-load.php(50): require_once('D:\\xampp\\htdocs...')
+#4 D:\xampp\htdocs\backlot.site\wp-blog-header.php(13): require_once('D:\\xampp\\htdocs...')
+#5 D:\xampp\htdocs\backlot.site\index.php(17): require('D:\\xampp\\htdocs...')
+#6 {main}
+  thrown in D:\xampp\htdocs\backlot.site\wp-content\themes\havenblanktheme\includes\woocommerce.php on line 130
+
+2021-09-09T11:59:27+00:00 CRITICAL Uncaught Error: Using $this when not in object context in D:\xampp\htdocs\backlot.site\wp-content\themes\havenblanktheme\includes\woocommerce.php:130
+Stack trace:
+#0 D:\xampp\htdocs\backlot.site\wp-content\themes\havenblanktheme\functions.php(116): include_once()
+#1 D:\xampp\htdocs\backlot.site\wp-settings.php(546): include('D:\\xampp\\htdocs...')
+#2 D:\xampp\htdocs\backlot.site\wp-config.php(90): require_once('D:\\xampp\\htdocs...')
+#3 D:\xampp\htdocs\backlot.site\wp-load.php(50): require_once('D:\\xampp\\htdocs...')
+#4 D:\xampp\htdocs\backlot.site\wp-blog-header.php(13): require_once('D:\\xampp\\htdocs...')
+#5 D:\xampp\htdocs\backlot.site\index.php(17): require('D:\\xampp\\htdocs...')
+#6 {main}
+  thrown in D:\xampp\htdocs\backlot.site\wp-content\themes\havenblanktheme\includes\woocommerce.php on line 130
+
+2021-09-09T11:59:27+00:00 CRITICAL Uncaught Error: Using $this when not in object context in D:\xampp\htdocs\backlot.site\wp-content\themes\havenblanktheme\includes\woocommerce.php:130
+Stack trace:
+#0 D:\xampp\htdocs\backlot.site\wp-content\themes\havenblanktheme\functions.php(116): include_once()
+#1 D:\xampp\htdocs\backlot.site\wp-settings.php(546): include('D:\\xampp\\htdocs...')
+#2 D:\xampp\htdocs\backlot.site\wp-config.php(90): require_once('D:\\xampp\\htdocs...')
+#3 D:\xampp\htdocs\backlot.site\wp-load.php(50): require_once('D:\\xampp\\htdocs...')
+#4 D:\xampp\htdocs\backlot.site\wp-blog-header.php(13): require_once('D:\\xampp\\htdocs...')
+#5 D:\xampp\htdocs\backlot.site\index.php(17): require('D:\\xampp\\htdocs...')
+#6 {main}
+  thrown in D:\xampp\htdocs\backlot.site\wp-content\themes\havenblanktheme\includes\woocommerce.php on line 130
+
+2021-09-09T11:59:28+00:00 CRITICAL Uncaught Error: Using $this when not in object context in D:\xampp\htdocs\backlot.site\wp-content\themes\havenblanktheme\includes\woocommerce.php:130
+Stack trace:
+#0 D:\xampp\htdocs\backlot.site\wp-content\themes\havenblanktheme\functions.php(116): include_once()
+#1 D:\xampp\htdocs\backlot.site\wp-settings.php(546): include('D:\\xampp\\htdocs...')
+#2 D:\xampp\htdocs\backlot.site\wp-config.php(90): require_once('D:\\xampp\\htdocs...')
+#3 D:\xampp\htdocs\backlot.site\wp-load.php(50): require_once('D:\\xampp\\htdocs...')
+#4 D:\xampp\htdocs\backlot.site\wp-blog-header.php(13): require_once('D:\\xampp\\htdocs...')
+#5 D:\xampp\htdocs\backlot.site\index.php(17): require('D:\\xampp\\htdocs...')
+#6 {main}
+  thrown in D:\xampp\htdocs\backlot.site\wp-content\themes\havenblanktheme\includes\woocommerce.php on line 130
+
+2021-09-09T14:58:57+00:00 CRITICAL syntax error, unexpected '}', expecting ';' in D:\xampp\htdocs\backlot.site\wp-content\themes\havenblanktheme\includes\any-filters.php on line 67
+
+2021-09-09T14:58:57+00:00 CRITICAL syntax error, unexpected '}', expecting ';' in D:\xampp\htdocs\backlot.site\wp-content\themes\havenblanktheme\includes\any-filters.php on line 67
+
+2021-09-09T14:58:58+00:00 CRITICAL syntax error, unexpected '}', expecting ';' in D:\xampp\htdocs\backlot.site\wp-content\themes\havenblanktheme\includes\any-filters.php on line 67
+

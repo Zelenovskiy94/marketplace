@@ -1,0 +1,28 @@
+2021-09-07T09:37:19+00:00 CRITICAL Maximum execution time of 120 seconds exceeded in D:\xampp\htdocs\backlot.site\wp-content\themes\havenblanktheme\woocommerce\content-product.php on line 20
+
+2021-09-07T09:38:25+00:00 CRITICAL Maximum execution time of 120 seconds exceeded in D:\xampp\htdocs\backlot.site\wp-content\themes\havenblanktheme\woocommerce\content-product.php on line 20
+
+2021-09-07T09:40:28+00:00 CRITICAL Maximum execution time of 120 seconds exceeded in D:\xampp\htdocs\backlot.site\wp-content\themes\havenblanktheme\woocommerce\content-product.php on line 20
+
+2021-09-07T15:52:07+00:00 CRITICAL Uncaught Error: Using $this when not in object context in D:\xampp\htdocs\backlot.site\wp-content\themes\havenblanktheme\includes\woocommerce.php:39
+Stack trace:
+#0 D:\xampp\htdocs\backlot.site\wp-content\themes\havenblanktheme\functions.php(116): include_once()
+#1 D:\xampp\htdocs\backlot.site\wp-settings.php(546): include('D:\\xampp\\htdocs...')
+#2 D:\xampp\htdocs\backlot.site\wp-config.php(90): require_once('D:\\xampp\\htdocs...')
+#3 D:\xampp\htdocs\backlot.site\wp-load.php(50): require_once('D:\\xampp\\htdocs...')
+#4 D:\xampp\htdocs\backlot.site\wp-blog-header.php(13): require_once('D:\\xampp\\htdocs...')
+#5 D:\xampp\htdocs\backlot.site\index.php(17): require('D:\\xampp\\htdocs...')
+#6 {main}
+  thrown in D:\xampp\htdocs\backlot.site\wp-content\themes\havenblanktheme\includes\woocommerce.php on line 39
+
+2021-09-07T15:52:08+00:00 CRITICAL Uncaught Error: Using $this when not in object context in D:\xampp\htdocs\backlot.site\wp-content\themes\havenblanktheme\includes\woocommerce.php:39
+Stack trace:
+#0 D:\xampp\htdocs\backlot.site\wp-content\themes\havenblanktheme\functions.php(116): include_once()
+#1 D:\xampp\htdocs\backlot.site\wp-settings.php(546): include('D:\\xampp\\htdocs...')
+#2 D:\xampp\htdocs\backlot.site\wp-config.php(90): require_once('D:\\xampp\\htdocs...')
+#3 D:\xampp\htdocs\backlot.site\wp-load.php(50): require_once('D:\\xampp\\htdocs...')
+#4 D:\xampp\htdocs\backlot.site\wp-blog-header.php(13): require_once('D:\\xampp\\htdocs...')
+#5 D:\xampp\htdocs\backlot.site\index.php(17): require('D:\\xampp\\htdocs...')
+#6 {main}
+  thrown in D:\xampp\htdocs\backlot.site\wp-content\themes\havenblanktheme\includes\woocommerce.php on line 39
+
